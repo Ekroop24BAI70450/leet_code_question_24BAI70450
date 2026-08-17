@@ -17,7 +17,7 @@ public:
                 left++;
             }
 
-            maxFruits = std::max(maxFruits, right - left + 1);
+            maxFruits = max(maxFruits, right - left + 1);
         }
 
         return maxFruits;
